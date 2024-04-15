@@ -1,5 +1,9 @@
-export const signup = (req, res) => {
-    console.log('signup');
+export const signup = async (req, res) => {
+    try {
+        
+    } catch (err) {
+        
+    }
 }
 
 export const login = (req, res) => {
