@@ -1,10 +1,11 @@
-export const sendMessage = async (req, res) => {
-    try {
-        const { message } = req.body;
-        const { id } = req.params;
+export const sendMessage = (req, res) => {
+    // try {
+    //     const { message } = req.body;
+    //     const { id } = req.params;
         
-    } catch (error) {
-        console.log("Error in sendMessage controller: ", error.message);
-        res.status(500).json({ error: "Internal server error" });
-    }
+    // } catch (error) {
+    //     console.log("Error in sendMessage controller: ", error.message);
+    //     res.status(500).json({ error: "Internal server error" });
+    // }
+    console.log("message send")
 }
