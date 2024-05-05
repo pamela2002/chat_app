@@ -11,7 +11,7 @@ const Login = () => {
         <form>
           <div>
             <label className='label p-2'>
-              <span className='text-base label-text'>Username</span>
+              <span className='text-base label-text text-white'>Username</span>
             </label>
             <input
               type='text'
@@ -21,7 +21,7 @@ const Login = () => {
           </div>
           <div>
             <label className='label'>
-              <span className='text-base label-text'>Password</span>
+              <span className='text-base label-text text-white'>Password</span>
             </label>
             <input
               type='password'
