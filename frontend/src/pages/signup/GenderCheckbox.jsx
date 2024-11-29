@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const GenderCheckbox = ({ onCheckboxChange, selectedGender }) => {
     return (
@@ -19,4 +19,4 @@ const GenderCheckbox = ({ onCheckboxChange, selectedGender }) => {
     )
 }
 
-export default GenderCheckbox
+export default GenderCheckbox;
